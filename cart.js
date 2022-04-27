@@ -27,7 +27,7 @@ function displayShoppingCart(){
         cart_total_price+=shoppingCart[product].Price;
     }
     //fill total cost of our shopping cart
-    document.getElementById("cart_total").innerHTML=cart_total_price*1.075+7.98;
+    document.getElementById("cart_total").innerHTML=cart_total_price*1.07+7.98;
 }
 
 
