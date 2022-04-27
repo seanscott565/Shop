@@ -1,0 +1,86 @@
+<table cellpadding="4" cellspacing="4" border="1">
+    <tr>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="0">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            Products for sale
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            ur mom
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('ur mom','not getting it',1)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Big O
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Big O','he give you massages',3)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mr.Cruz
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Mr.Cruz','a smart slave',15)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Kat
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Kat','slave',1)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Andrew
+                        </td>
+                        <td>
+                            <input type="button" value="Add to cart" onclick="AddtoCart('Andrew','another slave',10)"/>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </td>
+        <td valign="top">
+            <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+                <thead>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            Price
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="orderedProductsTblBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" id="cart_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </td>
+    </tr>
+    <script src="cart.js"></script>
+</table>
