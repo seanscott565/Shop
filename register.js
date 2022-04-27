@@ -7,7 +7,7 @@ btn.addEventListener('click', (e) => {
         e.preventDefault();
         msg.style.display = "block"
     }else{
-        alert('user registered sucessfully')
+        alert('User registered successfully, click the login button to login!')
     }
 
 })
